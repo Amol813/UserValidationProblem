@@ -20,5 +20,8 @@ internal class Program
         validation.ValidateEmail("Amol.xyz@bridgelabz.co.in");
         validation.ValidateEmail("Ku@gmail.com");
         validation.ValidateEmail("sai123@gmail");
+
+        validation.ValidateMobileNumber("9643840561");
+        validation.ValidateMobileNumber("012346");
     }
 }

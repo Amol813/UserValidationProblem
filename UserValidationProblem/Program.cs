@@ -28,8 +28,12 @@ internal class Program
         validation.ValidatePassword("000456ABC");
         validation.ValidatePassword("123@067");
 
-        validation.ValidatePassword("7Eg23yhuj");
-        validation.ValidatePassword("123456ABC");
-        validation.ValidatePassword("a2345AB");
+        validation.ValidatePassword("abc@123yj");
+        validation.ValidatePassword("000456ABC");
+        validation.ValidatePassword("123@067");
+
+        validation.ValidatePassword("abc@_123yj");
+        validation.ValidatePassword("000_456ABC");
+        validation.ValidatePassword("Amol@067");
     }
 }

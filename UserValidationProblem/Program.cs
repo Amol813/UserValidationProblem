@@ -23,5 +23,9 @@ internal class Program
 
         validation.ValidateMobileNumber("9643840561");
         validation.ValidateMobileNumber("012346");
+
+        validation.ValidatePassword("abc@123yj");
+        validation.ValidatePassword("000456ABC");
+        validation.ValidatePassword("123@067");
     }
 }

@@ -15,5 +15,10 @@ internal class Program
         validation.ValidateSecondName("Ku");
         validation.ValidateSecondName("Jai");
         validation.ValidateSecondName("Sam");
+
+        
+        validation.ValidateEmail("Amol.xyz@bridgelabz.co.in");
+        validation.ValidateEmail("Ku@gmail.com");
+        validation.ValidateEmail("sai123@gmail");
     }
 }

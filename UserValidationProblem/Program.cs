@@ -10,5 +10,10 @@ internal class Program
         validation.ValidateFirstName("Ku");
         validation.ValidateFirstName("Jai");
         validation.ValidateFirstName("Sam");
+  
+        validation.ValidateSecondName("Amol");
+        validation.ValidateSecondName("Ku");
+        validation.ValidateSecondName("Jai");
+        validation.ValidateSecondName("Sam");
     }
 }
